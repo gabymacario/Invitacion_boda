@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jeremías & Victoria</title>
+
+<link rel="stylesheet" href="stylef.css">
+
+</head>
+
+<body>
+
+<div class="invitacion-container">
+
+<img
+src="boda final.png"
+alt="Invitación"
+class="invitacion">
+
+<!-- GOOGLE MAPS -->
+
+<a
+class="maps-btn"
+href="https://www.google.com/maps/place/Obra+Salesiana+%22La+Divina+Providencia%22/@14.6118264,-90.5333061,17z/data=!4m6!3m5!1s0x8589a1820055efdb:0xb556fedbd3f58c55!8m2!3d14.6118212!4d-90.5307312!16s%2Fg%2F1vtqwf91?entry=ttu&g_ep=EgoyMDI2MDUzMS4wIKXMDSoASAFQAw%3D%3D"
+target="_blank">
+</a>
+
+<!-- WAZE -->
+
+<a
+class="waze-btn"
+href="https://waze.com/ul/h9fxe0fb8w"
+target="_blank">
+</a>
+
+<!-- FORMULARIO -->
+
+<form
+id="rsvpForm"
+class="rsvp">
+
+<input
+type="text"
+name="nombre"
+required>
+<br>
+<select
+name="asistencia"
+id="asistencia"
+required>
+
+<option value=""></option>
+<option value="Sí">Sí</option>
+<option value="No">No</option>
+
+</select>
+
+<input
+type="number"
+name="acompanantes"
+id="acompanantes"
+min="0"
+value="0">
+
+<button type="submit">
+
+Confirmar asistencia
+
+</button>
+
+<div id="mensaje"></div>
+
+</form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
